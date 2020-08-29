@@ -31,7 +31,7 @@ class TaskFormActivity : AppCompatActivity(), View.OnClickListener {
             val email = edit_email.text.toString()
             val password = edit_password.text.toString()
 
-            mViewModel.create(name, email, password)
+            mViewModel.register(name, email, password)
         }
     }
 

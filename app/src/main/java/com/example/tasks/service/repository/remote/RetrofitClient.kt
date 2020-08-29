@@ -9,7 +9,7 @@ class RetrofitClient private constructor(){
     companion object{
 
         private lateinit var mRetrofit: Retrofit
-        private val BASE_URL = "https://desafio-it-server.herokuapp.com/"
+        private val BASE_URL = "http://devmasterteam.com/CursoAndroidAPI/"
 
         fun getRetrofitInstance(): Retrofit {
 
